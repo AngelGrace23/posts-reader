@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 
 import { getPost, getPosts } from "./posts.api";
-import type { Post } from "./posts.types";
+import type { Post } from "./posts/posts.types";
 
 export const usePosts = () => {
   return useQuery({

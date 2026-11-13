@@ -1,5 +1,5 @@
 import api from "@/lib/api";
-import type { Post } from "./posts.types";
+import type { Post } from "./posts/posts.types";
 
 export const getPosts = async () => {
   const res = await api.get<Post[]>("/posts");
